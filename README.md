@@ -79,8 +79,10 @@ Now make sure add import UIKit at tops
 import UIKit
 ```
 
-# Notes 
-It was preview for only iPhone 12 Pro Max 
+# Built Constraint 
+Now you enjoy to edit the constraint to test on your device or iOS Simulator to see if it was prefect.
+
+# If Methods 
 
 ```
     func DisplayView(UIView: UIView) {
@@ -105,7 +107,7 @@ It was preview for only iPhone 12 Pro Max
            ViewText.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
        
         
-      } else if  screenType == .iPhone12ProMax { 
+      } else if screenType == .iPhone12ProMax { 
       
       // Built Constraint Code in here
            // bottomAnchor
